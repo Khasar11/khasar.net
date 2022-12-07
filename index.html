@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BAW</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="always-on-top"></div>
+        <button id="go-to-top" onclick="location.href='#always-on-top'">🠉</button>
+
+        <div class="subpage" id="nav">
+            <ul id="navul" class="navbar">
+                <li class="nav-elements" id="li-programming">
+                    <a href="#programming">
+                        <img src="./resources/programming.svg" href="#programming"></img>
+                    </a>
+                    <p class="nav-hover">PROGRAMMING</p>
+                </li>
+                <li class="nav-elements" id="li-socials">
+                    <a href="#socials">
+                        <img src="./resources/socials.svg" href="#socials"></img>
+                    </a>
+                    <p class="nav-hover">SOCIALS</p>
+                </li>
+                <li class="nav-elements" id="li-email">
+                    <a href="#email">
+                        <img src="./resources/email.svg" href="#email"></img>
+                    </a>
+                    <p class="nav-hover">EMAIL</p>
+                </li>
+                <li class="nav-elements" id="li-work">
+                    <a href="#work">
+                        <img src="./resources/work.svg"></img>
+                    </a>
+                    <p class="nav-hover">WORK</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="subpage" id="programming">
+            <header class="subpage-header">Programming</header>
+            <p class="subpage-description">
+                I <span style="color:rgb(255, 247, 19); font-weight:bold;">mainly</span> work on projects oriented around:                          <br>
+                <span style="color:rgb(86, 255, 83); font-weight:bold;">C#</span>: My main experience is from game dev+game modding+windows applications, self taught   <br><br>
+                <span style="color:rgb(255, 49, 142); font-weight:bold;">Java</span>: My main experience is from game dev+game modding+java applications, self taught <br><br>
+                <span style="color:rgb(48, 255, 214); font-weight:bold;">PLC/HMI Programming</span>: Using any standard format like LAD/FBD/STL/SCL   <br>
+                I've taken courses on top of being self taught, and have programmed <br>
+                several logic intensive programs for machinery/functional testing.                       <br>
+                Main experience is around Mitsubishi+Siemens PLCs. <br>(GX Works 2/3, GT Designer, TIA Portal, Step7 Classic/WinCC) <br><br>
+            </p>
+        </div>
+
+        <div class="subpage" id="socials">
+            <div class="boxes">
+                <div class="li-click" id="box-discord">Khasar#2151</div>
+                <div class="li-click" id="box-snapchat">alpacall</div>
+            </div>
+            <ul id="socials-selector" class="navbar">
+                <li class="nav-elements" id="li-discord">
+                    <a id="li-discord-a" href="#socials" onclick="toggle('box-discord', 'box-snapchat')">
+                        <img src="./resources/discord.svg"></img>
+                    </a>
+                    <p class="nav-hover">DISCORD</p>
+                </li>
+                <li class="nav-elements" id="li-snapchat">
+                    <a id="li-snapchat-a" href="#socials" onclick="toggle('box-snapchat', 'box-discord')">
+                        <img src="./resources/snapchat.svg"></img>
+                    </a>
+                    <p class="nav-hover">SNAPCHAT</p>
+                </li>
+                <li class="nav-elements" id="li-steam">
+                    <a id="li-steam-a" href="https://steamcommunity.com/id/khasar1/" target="_blank"><img src="./resources/steam.svg"></img></a>
+                    <p class="nav-hover">STEAM</p>
+                </li>
+                <li class="nav-elements" id="li-github">
+                    <a id="li-github-a" href="https://github.com/Khasar11" target="_blank"><img src="./resources/github.svg"></img></a>
+                    <p class="nav-hover">GITHUB</p>
+                </li>
+            </ul>
+        </div>
+        <div class="subpage" id="email">
+            <header class="subpage-header">EMAIL</header>
+            <p class="subpage-description" style="font-size:5vh;">
+                khasar@khasar.net
+            </p>
+        </div>
+
+        <div class="subpage" id="gaming">
+            <header class="subpage-header">GAMING</header>
+            <p class="subpage-description">
+                
+            </p>
+        </div>
+
+        <div class="subpage" id="work">
+            <header class="subpage-header">WORK</header>
+            <p class="subpage-description">
+                My <span style="color:rgb(255, 247, 19); font-weight:bold;">main field</span> of work is automation.                          <br>
+                With this I mean that I've worked with most parts of a process, <br>
+                from welding pipes using <span style="color:rgb(19, 255, 188); font-weight:bold;">TIG welding</span>, <br>
+                to <span style="color:rgb(19, 255, 188); font-weight:bold;">wiring</span> the electricals, to <span style="color:rgb(19, 255, 188); font-weight:bold;">programming</span>, <br>
+                even a decent bit of <span style="color:rgb(19, 255, 188); font-weight:bold;">soldering</span>. And I enjoy every part of it. <br>
+                I've this far mainly worked in the dairy industry.
+            </p>
+        </div>
+    </body>
+</html>
